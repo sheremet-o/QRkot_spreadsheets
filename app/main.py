@@ -1,3 +1,5 @@
+
+from app.core.init_db import create_first_superuser
 from fastapi import FastAPI
 
 from app.api.routers import main_router
